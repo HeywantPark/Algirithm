@@ -2,7 +2,7 @@ package week0;
 
 public class Recursive02 {
     public static void main(String[] args) {
-        // 1 ~ 3 더한값과  곱한값을 구하세요
+        // 1 ~ 5 더한값과  곱한값을 구하세요
         recursive(1,0,1);
     }
     public static void recursive(int idx, int sum, int cross) {
