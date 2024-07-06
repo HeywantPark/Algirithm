@@ -16,8 +16,8 @@ public class Solution1 {
         return null;
     }
     public static void main(String[] args) {
-        Solution2 solution2 = new Solution2();
-        String answer = Arrays.toString(solution2.twoSum(new int[]{6, 3, 11, 15}, 9));
+        Solution1 solution = new Solution1();
+        String answer = Arrays.toString(solution.twoSum(new int[]{6, 3, 11, 15}, 9));
         System.out.println(answer);
     }
 }

@@ -20,8 +20,8 @@ public class Solution3 {
         return new int[] {-1, -1};
     }
     public static void main(String[] args) {
-        Solution2 solution2 = new Solution2();
-        String answer = Arrays.toString(solution2.twoSum(new int[]{6, 3, 11, 15}, 9));
+        Solution3 solution3 = new Solution3();
+        String answer = Arrays.toString(solution3.twoSum(new int[]{6, 3, 11, 15}, 9));
         System.out.println(answer);
     }
 }
