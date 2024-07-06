@@ -1,4 +1,6 @@
-package ch01.twosome;
+package week1.twosome;
+
+import java.util.Arrays;
 
 public class Solution1 {
     public int[] twoSum(int[] nums, int target) {
@@ -12,5 +14,10 @@ public class Solution1 {
             }
         }
         return null;
+    }
+    public static void main(String[] args) {
+        Solution2 solution2 = new Solution2();
+        String answer = Arrays.toString(solution2.twoSum(new int[]{6, 3, 11, 15}, 9));
+        System.out.println(answer);
     }
 }

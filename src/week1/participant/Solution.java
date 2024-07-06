@@ -1,4 +1,4 @@
-package ch01.participant;
+package week1.participant;
 
 public class Solution {
 }
