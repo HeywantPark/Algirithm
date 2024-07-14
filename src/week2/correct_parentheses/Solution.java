@@ -1,9 +1,9 @@
-package week2;
+package week2.correct_parentheses;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-public class CorrectParentheses {
+public class Solution {
     boolean solution(String s) {
         boolean answer = true;
         // stack을 생성한다.
@@ -23,7 +23,7 @@ public class CorrectParentheses {
         return answer;
     }
     public static void main(String[] args) {
-        CorrectParentheses correctParentheses = new CorrectParentheses();
+        Solution correctParentheses = new Solution();
 
         // 테스트 케이스
         String[] testCases = {
