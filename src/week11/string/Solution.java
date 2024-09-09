@@ -1,4 +1,4 @@
-package week11.String;
+package week11.string;
 
 public class Solution {
     boolean solution(String s) {
