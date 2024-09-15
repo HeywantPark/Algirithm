@@ -16,7 +16,6 @@ public class Main2 {
         for(int i=0; i<5; i++){
             arr[i] = Integer.parseInt(st.nextToken());
         }
-
         // 2. 정렬이 된 경우에 불필요한 정렬 과정을 진행하지 않기 위해 정렬 체크 변수 선언
         boolean sortChk;
 
@@ -33,7 +32,6 @@ public class Main2 {
                     sortChk = true;
                 }
             }
-
             // 변수가 false 이면 한 라운드 내에서 한번도 원소를 교환하지 않았단 뜻으로 종료
             if(!sortChk){
                 break;
