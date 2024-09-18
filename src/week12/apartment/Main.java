@@ -23,7 +23,7 @@ public class Main {
             // dp로 memo 테이블 채우기
             for (int i = 1; i <= k; i++) { // 층
                 for (int j = 1; j <= n; j++) { // 호
-                    memo[i][j] = memo[i - 1][j] + memo[i][j - 1]; // 불필요한 조건문 제거
+                    memo[i][j] = memo[i - 1][j] + memo[i][j - 1];
                 }
             }
 
