@@ -17,8 +17,7 @@ public class Main {
 
             //basecase
             for (int j = 0; j <= m; j++) {
-                site[j][0] = 0;
-                site[0][j] = 0;
+                site[j][0] = 1;
                 if(j <= n) {
                     site[j][j] = 1;
                 }
