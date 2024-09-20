@@ -3,7 +3,6 @@ package week10.oildrilling;
 import java.util.*;
 
 public class Solution2 {
-
     int m, n;
     int[][] dir = {{0,1},{0,-1},{1,0},{-1,0}};
     public int solution(int[][] land) {
