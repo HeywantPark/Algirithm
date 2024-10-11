@@ -1,8 +1,8 @@
-package week14;
+package week14.twosticker;
 
 import java.util.Scanner;
 
-public class TwoStickers {
+public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
