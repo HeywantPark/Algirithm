@@ -1,4 +1,4 @@
-package week15;
+package week15.map;
 
 import java.util.ArrayList;
 import java.util.List;
