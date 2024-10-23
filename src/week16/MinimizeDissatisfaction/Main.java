@@ -34,5 +34,4 @@ public class Main {
         // 총 불만도 출력
         System.out.println(totalDissatisfaction);
     }
-    }
 }
