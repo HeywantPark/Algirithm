@@ -14,11 +14,13 @@ public class Main {
         }
         List<String> words = new ArrayList<>(set); // 리스트로 변환
 
-        words.sort((o1, o2) -> {
-            if (o1.length() != o2.length()) {
-                return o1.length() - o2.length(); // 길이 기준 정렬
+
+        // Collections 를 사용한 정렬
+        Collections.sort(words, (a,b) -> {
+            if (a.length() != b.length()) {
+                return a.length() - b.length(); // 길이 순 정렬
             } else {
-                return o1.compareTo(o2); // 사전 순 정렬
+                return a.compareTo(b); // 사전 순 정렬
             }
         });
 
