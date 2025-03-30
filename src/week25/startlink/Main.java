@@ -28,12 +28,12 @@ public class Main {
     }
     private static void combination(int depth, int start) {
 
-        if (depth == n/2 ) {
+        if(depth == n/2) {
             calcuate();
             return;
         }
-        for (int i = start; i < n; i++) {
-            if (!visited[i]) {
+        for(int i = start; i < n; i++) {
+            if(!visited[i]) {
                 visited[i] = true;
                 combination(depth + 1, i + 1);
                 visited[i] = false;
@@ -47,9 +47,10 @@ public class Main {
 
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                if(visited[i] && visited[j]){
+                if(visited[i] && visited[j]) {
                     startSum += matrix[i][j];
-                } else if (!visited[i] && !visited[j]) {
+                }
+                else if(!visited[i] && !visited[j]) {
                     linkSum += matrix[i][j];
                 }
             }
